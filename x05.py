@@ -12,9 +12,8 @@ now = datetime.datetime.now().strftime("%Y-%m-%d, %H:%M:%S")
 print(now)
 teachers_values = []
 
-#database_path = r"pcs_in_out.db"
-#database_BK_path = r"pcs_in_out_BACKUP.db"
-database_path = r"\\571158-pc-100\pc_in\pcs_in_out.db"
+database_path = r"pcs_in_out.db"
+#database_path = r"\\571158-pc-100\pc_in\pcs_in_out.db"
 BK_database_path = r"pcs_in_out_BACKUP.db"
 
 def create_table():
